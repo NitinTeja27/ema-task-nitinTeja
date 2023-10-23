@@ -24,3 +24,17 @@ The following tools are necessary for its proper functionality.
 - [faiss-gpu](https://pypi.org/project/faiss-gpu/)
 - [sentence_transformers](https://pypi.org/project/sentence-transformers/)
 - [pypdf](https://pypi.org/project/pypdf/)
+
+**[LLaMA 2](https://ai.meta.com/llama/)** 
+
+The LLaMA 2 model is a powerful open-source language model, pretrained and fine-tuned on an extensive dataset of 2 trillion tokens. It is available in three different sizes: 7B, 13B, and 70B, each offering improvements over the previous LLaMA 1 models. Notable enhancements include training on 40% more tokens, an impressive context length of 4,000 tokens. LLaMA 2 outperforms other open-source language models in various external benchmarks, including tasks related to reasoning, coding, proficiency, and knowledge assessment.
+
+**[LangChain](https://python.langchain.com/docs/get_started/introduction)** 
+
+LangChain is a robust open-source framework tailored for building applications driven by language models, especially large ones. The key concept behind this library is the ability to interconnect various components to enable more advanced functionalities centered around large language models (LLMs). LangChain comprises multiple components spread across different modules.
+
+**[FAISS](https://github.com/facebookresearch/faiss)**
+
+
+FAISS (Facebook AI Similarity Search) is a library that empowers developers to swiftly find similar embeddings in multimedia documents. It overcomes constraints of conventional hash-based query search engines, offering scalable similarity search capabilities. Utilizing FAISS, developers can efficiently search multimedia documents, even in ways that are impractical with standard SQL database engines. It incorporates nearest-neighbor search solutions tailored for datasets ranging from millions to billions in scale, effectively balancing memory, speed, and accuracy considerations. FAISS is designed to excel in performance across a wide range of operational scenarios.
+
