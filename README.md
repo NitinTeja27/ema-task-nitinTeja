@@ -192,3 +192,14 @@ Furthermore, the model can generate responses by recalling its prior interaction
 > 
 > Enter your Query: thanks
 
+### References
+
+[LLaMA 2 is here - get it on HuggingFace](https://huggingface.co/blog/llama2)
+
+[FAISS](https://ai.meta.com/tools/faiss/)
+
+[LangChain: Introduction and Getting Started](https://www.pinecone.io/learn/series/langchain/langchain-intro/)
+
+[LLaMA 2: How to access and use Meta’s versatile open-source chatbot right now](https://venturebeat.com/ai/llama-2-how-to-access-and-use-metas-versatile-open-source-chatbot-right-now/)
+
+[Faiss: A library for efficient similarity search](https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/)
