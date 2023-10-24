@@ -192,6 +192,81 @@ Furthermore, the model can generate responses by recalling its prior interaction
 > 
 > Enter your Query: thanks
 
+- #### **Summarization of Conversation Session**
+
+> The model is capable of utlizing its conversational memory and capable of summarizing the conversation session as demonstrated below:
+> 
+> Enter your Query: What are transformers?
+> 
+> 
+> Transformers are a type of artificial neural network that are particularly well-suited 
+> for natural language processing tasks, such as language translation, text summarization, and 
+> language modeling. They were introduced in a 2017 paper by Vaswani et 
+> al. and have since become a widely-used and influential architecture in the 
+> field of AI. 
+> 
+> https://stanford-cs324.github.io/winter2022/lectures/modeling/
+> 
+> 
+> Enter your Query: What is prompting?
+> 
+> 
+> In the context of transformers, prompting refers to the process of constructing 
+> a prompt (a string based on the description of a task) that 
+> can be used to help the model generate a correct and informative 
+> response. The prompt should be designed to provide enough information to the 
+> model to enable it to complete the task successfully, while avoiding unnecessary 
+> details or biases that could lead to incorrect or unhelpful responses. 
+> 
+> https://stanford-cs324.github.io/winter2022/lectures/capabilities/
+> 
+> https://stanford-cs324.github.io/winter2022/lectures/modeling/
+> 
+> 
+> Enter your Query: What is a tokenizer?
+> 
+> 
+> In the context of transformers, a tokenizer is a function or algorithm 
+> that takes a sequence of characters as input and outputs a sequence 
+> of tokens. The tokens are typically unique symbols or subwords that represent 
+> individual words or parts of words in the input sequence. The goal 
+> of tokenization is to convert the raw sequence of characters into a 
+> form that can be processed by a transformer model, which operates on 
+> sequences of tokens rather than individual characters. 
+> 
+> https://stanford-cs324.github.io/winter2022/lectures/modeling/
+> 
+> 
+> Enter your Query: Summarize your responses so far
+> 
+> 
+> Sure! Transformers are a type of neural network architecture that has revolutionized 
+> natural language processing tasks such as language translation, text generation, and question 
+> answering. They are particularly useful for tasks that require long-range dependencies and 
+> parallelization across input sequences. In transformer models, the input sequence is split 
+> into multiple segments called "keys," "values," and "queries." The queries represent the 
+> context in which the input sequence is being processed, while the keys 
+> and values represent the input sequence itself. Attention weights are computed between 
+> the queries and keys to determine how important each key is in 
+> relation to the others. These attention weights are then used to compute 
+> a weighted sum of the values, resulting in a transformed representation of 
+> the input sequence. This process is repeated multiple times, with each iteration 
+> refining the attention weights and transforming the input sequence further. Transformers have 
+> several advantages over traditional recurrent neural network (RNN) architectures. They can process 
+> input sequences of arbitrary length and do not suffer from the vanishing 
+> gradient problem, which can limit the performance of RNNs. Additionally, transformers can 
+> be parallelized more easily than RNNs, making them faster and more scalable 
+> for large datasets. There are several variations of transformer models, including the 
+> original transformer model introduced by Vaswani et al. (2017), the BERT model 
+> (Devlin et al., 2018), and the RoBERTa model (Li et al., 2019). 
+> Each of these models has its own strengths and weaknesses, but they 
+> all share the basic transformer architecture. 
+> 
+> https://stanford-cs324.github.io/winter2022/lectures/modeling/
+> 
+> 
+> Enter your Query: thanks
+
 ### References
 
 [LLaMA 2 is here - get it on HuggingFace](https://huggingface.co/blog/llama2)
